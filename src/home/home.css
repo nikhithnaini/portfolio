@@ -1,0 +1,157 @@
+/* Base styles (for larger screens like desktops) */
+:root {
+  --fontstyle: "Poppins", sans-serif;
+  --minifont: 15px;
+  --fontsize: 20px;
+  --mainfont: "Urbanist", sans-serif;
+}
+
+.home {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  height: auto;
+  width: auto;
+}
+
+.home .home-nav {
+  margin-top: 30px;
+}
+
+.profile-pic {
+  margin: 80px 80px 0px 80px;
+  height: 405.89px;
+  width: 811.78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: #feb273;
+  border-radius: 400px 400px 0 0;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello {
+  display: inline;
+  border: 2px solid grey;
+  font-family: var(--fontstyle);
+  font-size: var(--minifont);
+  padding: 5px 25px;
+  margin: 30px 0;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.role {
+  position: relative;
+  top: -38px;
+}
+
+span {
+  color: #fd853a;
+}
+
+.details {
+  text-align: center;
+  font-size: 95px;
+  font-family: var(--mainfont);
+  font-weight: 600;
+}
+
+.profile-pic img {
+  height: 600px;
+  width: auto;
+}
+
+/* HIRE ME */
+.hireme {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 120px;
+  column-gap: 40px;
+  width: auto;
+  height: auto;
+  font-family: var(--fontstyle);
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.hireme a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  background-color: #642222;
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  width: auto;
+  position: relative;
+  padding: 8px 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.hireme a .icons {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+.summary1 {
+  margin-left: 50px;
+  position: relative;
+  top: -500px;
+  width: 300px;
+  height: auto;
+  font-family: var(--fontstyle);
+  font-size: var(--minifont);
+  font-weight: 500;
+}
+
+.summary1 img {
+  position: relative;
+  height: 20px;
+  margin-right: 5px;
+  top: -2px;
+}
+.summary {
+  margin-left: 50px;
+  position: relative;
+  top: -500px;
+  width: 300px;
+  height: auto;
+  font-family: var(--fontstyle);
+  font-size: var(--minifont);
+  font-weight: 500;
+}
+
+.summary img {
+  position: relative;
+  height: 20px;
+  margin-right: 5px;
+  top: -2px;
+}
+@keyframes moveUpwards {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 926px) and (max-width: 2000px) {
+  .details {
+    animation: moveUpwards 2s ease-out forwards;
+  }
+}

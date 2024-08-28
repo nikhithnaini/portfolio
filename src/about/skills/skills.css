@@ -1,0 +1,15 @@
+.icon-size img {
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px;
+}
+.about-info-list {
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  justify-content: start;
+  /* align-items: center; */
+}
+/* .about-info-list h3 {
+  color: white;
+} */

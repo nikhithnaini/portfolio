@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.experience {
+  position: relative;
+  height: auto;
+  background-color: rgb(245, 240, 240);
+  top: -210px;
+  border-radius: 50px;
+}
+.outline {
+  height: auto;
+  width: auto;
+}
+.experience p {
+  text-align: center;
+  margin-top: 40px;
+}
+.experience h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+.box h4 {
+  color: gray;
+}
+.intern {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.intern .box {
+  height: auto;
+  width: 400px;
+  padding: 15px;
+  border: 2px solid brown;
+  border-radius: 25px;
+}
+.box ul {
+  padding: 10px;
+}
+.box ul li {
+  padding: 5px;
+}
+@media screen and (min-width: 360px) and (max-width: 380px) {
+  .experience {
+    top: -60px;
+    border-radius: 20px;
+  }
+  .box {
+    margin: 2px 0 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .experience {
+    top: -60px;
+    border-radius: 20px;
+  }
+  ul {
+    padding: 1px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .experience {
+    top: -80px;
+    border-radius: 20px;
+  }
+  ul {
+    padding: 1px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 600px) {
+  .experience {
+    top: -100px;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .experience {
+    top: -120px;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 840px) {
+  .experience {
+    top: -140px;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 841px) and (max-width: 925px) {
+  .experience {
+    top: -140px;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 925px) and (max-width: 1150px) {
+  .experience {
+    top: -160px;
+    border-radius: 20px;
+  }
+}

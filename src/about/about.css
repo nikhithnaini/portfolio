@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --fontstyle: "Poppins", sans-serif;
+  --minifont: 15px;
+  --fontsize: 20px;
+  --mainfont: "Urbanist", sans-serif;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.about-sec {
+  background-color: #fdf0e4;
+  height: auto;
+  border-radius: 50px 50px 0 0;
+  position: relative;
+  top: -165px;
+  margin-bottom: 0px;
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 200px;
+  align-items: start;
+  color: rgb(0, 0, 0);
+  border-radius: 5px 5px 0 0;
+  margin-top: 20px;
+  height: 600px;
+}
+.about-sec h1 {
+  /* position: relative;
+  top: 40px; */
+  margin-top: 30px;
+  font-family: var(--fontstyle);
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.pass-photo {
+  height: 300px;
+}
+.about-sec .pass-photo img {
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #fac89a;
+  object-fit: contain;
+  /* border: 2px solid rgb(2, 2, 2); */
+}
+.about-links {
+  font-family: var(--fontstyle);
+  font-size: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 45px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* column-gap: 40px; */
+  align-items: center;
+}
+
+.about-links button {
+  margin: 5px;
+  font-family: var(--fontstyle);
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  width: auto;
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+.about-links button:hover {
+  background-color: #ff7300;
+  font-weight: 500;
+}
+.link-data {
+  width: 650px;
+  height: 200px;
+}
+.about-matter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 50px;
+}

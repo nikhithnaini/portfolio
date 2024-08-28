@@ -1,0 +1,60 @@
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .about-info {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .flex-details.box {
+    justify-content: start;
+    align-items: start;
+    column-gap: 5px;
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--mainfont);
+}
+.personal {
+  height: 100px;
+}
+.me h1 {
+  font-family: var(--mainfont);
+  font-size: 10px;
+  color: white;
+}
+.personal .details {
+  color: rgb(12, 12, 12);
+  font-size: 10px;
+}
+.about-info {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.flex-details {
+  width: 100%;
+  display: flex;
+  width: auto;
+  justify-content: start;
+  align-items: center;
+}
+
+.box {
+  width: 50%; /* Each box takes 50% of the container width */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  padding: 10px; /* Optional padding for styling */
+  font-weight: 500;
+}
+.box img {
+  width: 20px;
+  height: 20px;
+}
+.lang {
+  text-align: left;
+  margin-top: 35px;
+}
+.lang p {
+  margin-top: 5px;
+}

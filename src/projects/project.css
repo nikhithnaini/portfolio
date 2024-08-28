@@ -1,0 +1,132 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Root Variables */
+:root {
+  --fontstyle: "Poppins", sans-serif;
+  --mainfont: "Urbanist", sans-serif;
+  --minifont: 15px;
+  --fontsize: 20px;
+}
+
+/* Global Styles */
+body {
+  font-family: var(--fontstyle);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title Styles */
+.title {
+  text-align: center;
+  font-family: var(--fontstyle);
+  font-weight: 600;
+  margin: 40px;
+}
+
+/* Project Section Styles */
+.project-sec {
+  background-color: #f9f9f9;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  height: auto;
+
+  border-radius: 40px 40px 0 0;
+}
+
+/* Project Container Styles */
+.project-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Project Item Styles */
+.project1 {
+  height: auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project1:hover {
+  transform: scale(1.05);
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.project-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.project1 h2 {
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+/* Button Styles */
+.btn {
+  margin-top: 15px;
+}
+
+.btn button {
+  font-size: var(--minifont);
+  font-family: var(--mainfont);
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid #333;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Slick Carousel Arrow Styles */
+.slick-prev,
+.slick-next {
+  top: 50%; /* Vertically center the arrows */
+  transform: translateY(-50%);
+  z-index: 10; /* Ensure they are on top of other elements */
+  color: #000000; /* Arrow color */
+  font-size: 0; /* Size of arrows */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000000;
+}
+
+@media screen and (max-width: 414px) {
+  .project-container .project1 {
+    padding: 10px;
+  }
+
+  .btn {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
