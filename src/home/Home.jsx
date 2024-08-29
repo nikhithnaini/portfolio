@@ -6,6 +6,7 @@ import openQuote from "./images/open.png";
 import download from "./icons/downloads.png";
 import "./home.css";
 import "./mediahome.css";
+import resume from "./Nikhith_Naini_web.pdf";
 function Home() {
   return (
     <div id="home" className="home">
@@ -31,7 +32,7 @@ function Home() {
           <img src={profile} alt="error" />
           <div className="hireme">
             {/* <p style={{ display: "inline-block" }}>Hire me</p> */}
-            <a href="./Nikhith_Naini_web.pdf" download>
+            <a href={resume} download>
               Download CV
               <img className="icons" src={download} alt="Up-right Icon" />
             </a>
