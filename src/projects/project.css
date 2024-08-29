@@ -34,15 +34,16 @@ body {
   background-color: #f9f9f9;
   position: relative;
   margin: 0;
+  top: -225px;
   text-align: center;
   height: auto;
 
-  border-radius: 40px 40px 0 0;
+  border-radius: 0;
 }
 
 /* Project Container Styles */
 .project-container {
-  margin: 0 auto;
+  margin: 50px auto;
   width: 90%;
   max-width: 1200px;
 }
@@ -57,10 +58,10 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
+/* 
 .project1:hover {
   transform: scale(1.05);
-}
+} */
 
 .project-img {
   width: 100%;
@@ -119,7 +120,16 @@ body {
 .slick-next:before {
   color: #000000;
 }
-
+@media screen and (min-width: 360px) and (max-width: 1150px) {
+  .project-sec {
+    top: -170px;
+  }
+}
+@media screen and (min-width: 925px) and (max-width: 1150px) {
+  .project-sec {
+    top: -200px;
+  }
+}
 @media screen and (max-width: 414px) {
   .project-container .project1 {
     padding: 10px;
@@ -128,5 +138,10 @@ body {
   .btn {
     flex-direction: column;
     gap: 5px;
+  }
+}
+@media screen and (min-width: 1021px) and (max-width: 2000px) {
+  .project-sec {
+    margin: 0px 50px;
   }
 }

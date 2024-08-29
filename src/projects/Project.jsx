@@ -107,6 +107,7 @@ function Project() {
           </div>
         </div>
       </Slider>
+      <div>&nbsp;</div>
     </div>
   );
 }

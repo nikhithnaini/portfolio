@@ -33,48 +33,40 @@
 @media screen and (max-width: 380px) {
   .about-sec {
     top: -40px;
-    border-radius: 20px;
   }
 }
 @media screen and (max-width: 420px) {
   .about-sec {
     top: -60px;
-    border-radius: 20px;
   }
 }
 @media screen and (max-width: 500px) {
   .about-sec {
     top: -80px;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 600px) {
   .about-sec {
     top: -100px;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 700px) {
   .about-sec {
     top: -120px;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 840px) {
   .about-sec {
     top: -140px;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 841px) and (max-width: 925px) {
   .about-sec {
     top: -140px;
-    border-radius: 20px;
   }
 }
 @media screen and (min-width: 925px) and (max-width: 1150px) {
   .about-sec {
     top: -160px;
-    border-radius: 20px;
   }
 }

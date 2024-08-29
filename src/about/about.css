@@ -94,3 +94,8 @@
   align-items: start;
   row-gap: 50px;
 }
+@media screen and (min-width: 1021px) and (max-width: 2000px) {
+  .about-sec {
+    margin: 0px 50px;
+  }
+}

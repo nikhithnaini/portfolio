@@ -143,15 +143,24 @@ span {
 }
 @keyframes moveUpwards {
   from {
-    transform: translateY(-100px);
+    transform: translateY(60px);
   }
   to {
-    transform: translateY(0);
+    transform: translateY(-5px);
   }
 }
-
+@media screen and (min-width: 360px) and (max-width: 925px) {
+  .details {
+    animation: moveUpwards 2s ease-out forwards;
+  }
+}
 @media screen and (min-width: 926px) and (max-width: 2000px) {
   .details {
     animation: moveUpwards 2s ease-out forwards;
+  }
+}
+@media screen and (min-width: 1021px) and (max-width: 2000px) {
+  .home {
+    margin: 0px 50px;
   }
 }
