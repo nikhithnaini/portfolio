@@ -1,10 +1,10 @@
 import { BiFontColor } from "react-icons/bi";
-
+import "./education.css";
 function Education() {
   return (
     <>
       <h3>Qualifications</h3>
-      <p style={{ color: "gray", fontWeight: 600 }}>
+      <p>
         B.Tech graduate from IIT BHU with expertise in DevOps, AWS, and web
         development, seeking to drive innovation and efficiency in tech roles.
       </p>

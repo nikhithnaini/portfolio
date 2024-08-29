@@ -1,0 +1,16 @@
+p {
+  font-family: var(--mainfont);
+  font-weight: 600;
+  color: rgb(81, 81, 81);
+}
+ul {
+  font-family: var(--mainfont);
+
+  font-weight: 550;
+}
+.about-info-list {
+  padding: 3px;
+}
+ul li {
+  padding: 3px;
+}
