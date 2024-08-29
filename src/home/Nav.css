@@ -36,14 +36,57 @@ nav a {
   border-radius: 30px;
 }
 
-a:hover {
+nav a:hover {
   background-color: #ff7300;
   font-weight: 500;
+}
+/* second -----------------------------------nav */
+
+.insta-nav {
+  width: 95%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  bottom: 0; /* Fixes the navbar to the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjusts for centering */
+  z-index: 1000;
+  margin: 5px; /* Optional: adds some space around the navbar */
+}
+.insta-nav img {
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+  transition: box-shadow 0.3s ease;
+}
+.insta-nav img.selected {
+  box-shadow: 0 0 0 2px black;
 }
 
 /* Media Queries */
 
 /* Tablets (between 768px and 1024px) */
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .insta-nav img {
+    padding: 5px 5px;
+  }
+  nav {
+    display: none;
+  }
+  .insta-nav {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 2000px) {
+  .insta-nav {
+    display: none;
+  }
+}
 @media screen and (max-width: 1024px) {
   nav {
     margin: 5px 40px;

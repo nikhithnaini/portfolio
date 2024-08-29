@@ -149,14 +149,22 @@ span {
     transform: translateY(-5px);
   }
 }
+@keyframes movedownwards {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 @media screen and (min-width: 360px) and (max-width: 925px) {
   .details {
-    animation: moveUpwards 2s ease-out forwards;
+    animation: moveUpwards 3.4s ease-out forwards;
   }
 }
 @media screen and (min-width: 926px) and (max-width: 2000px) {
   .details {
-    animation: moveUpwards 2s ease-out forwards;
+    animation: movedownwards 2s ease-out forwards;
   }
 }
 @media screen and (min-width: 1021px) and (max-width: 2000px) {
